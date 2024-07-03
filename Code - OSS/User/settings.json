@@ -1,0 +1,67 @@
+{
+  "redhat.telemetry.enabled": false,
+  "workbench.editorAssociations": {
+    "*.docx": "docxViewer.DocxEdit",
+    "*.ico": "imagePreview.previewEditor"
+  },
+  "editor.formatOnSave": true,
+  //"editor.formatonsavemode": "file",
+  "clang-format.executable.linux": "/usr/bin/clang-format",
+  "clang-format.executable": "/usr/bin/clang-format",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "clang-format.fallbackStyle": "none",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "xml.format.maxLineWidth": 1000,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "editor.inlayHints.enabled": "off",
+  "firefox.executable": "/usr/bin/firefox",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "vue",
+  "material-icon-theme.opacity": 1,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "vscode-neovim.compositeKeys": {
+    "fd": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimExecutablePaths.darwin": "",
+  "vscode-neovim.neovimExecutablePaths.win32": "",
+  "editor.lineNumbers": "relative",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "colorize.languages": [
+    "javascript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "[vue]": {}
+}
